@@ -1,0 +1,52 @@
+.observation-container {
+  max-width: 700px;
+  margin: 50px auto;
+  padding: 30px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  font-family: Arial, sans-serif;
+  box-shadow: 0 3px 12px rgba(0,0,0,0.15);
+}
+
+.observation-container h1 {
+  color: #2c5f2d;
+  margin-bottom: 20px;
+}
+
+.observation-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.observation-container label {
+  margin: 10px 0 5px;
+  font-weight: bold;
+}
+
+.observation-container input,
+.observation-container textarea {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.observation-container textarea {
+  resize: vertical;
+  min-height: 80px;
+}
+
+.observation-container button {
+  margin-top: 20px;
+  padding: 12px;
+  font-size: 16px;
+  background-color: #2c5f2d;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.observation-container button:hover {
+  background-color: #1e4620;
+}
